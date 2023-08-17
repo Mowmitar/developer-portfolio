@@ -1,0 +1,10 @@
+.color-orange{color:rgb(253, 110, 10);}
+*{margin: 0;
+font-family: 'Open Sans', sans-serif;
+}
+nav{display: flex;
+justify-content: space-between;}
+
+nav li{list-style: none;margin-right: 50px;}
+
+nav ul{display: flex;margin-top: 10px;}
