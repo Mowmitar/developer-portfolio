@@ -5,6 +5,14 @@ font-family: 'Open Sans', sans-serif;
 nav{display: flex;
 justify-content: space-between;}
 
+.nav-title{margin-left: 50px;}
+
 nav li{list-style: none;margin-right: 50px;}
 
 nav ul{display: flex;margin-top: 10px;}
+
+.btn-orange{border: 0;border-radius: 5px;
+  font-weight: 700;font-size: 18px;
+background-color: rgb(253, 110, 10);
+color: white;
+align-items: center;}
