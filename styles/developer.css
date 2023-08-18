@@ -6,7 +6,9 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+ margin-left: 200px;
+ margin-right: 200px;
+ padding-top: 50px;
 }
 
 .nav-title {
@@ -39,7 +41,10 @@ nav ul {
 }
 
 .banner {
-  margin: 0 200px;
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-left: 200px;
+ margin-right: 150px;
   display: flex;
   align-items: center;
 }
@@ -60,3 +65,9 @@ nav ul {
   font-size: 18px;
   margin-bottom: 30px;
 }
+
+.header{background: #fff8f3;
+background-image: url(../images/header_bg.png),url(../images/developer.png);
+background-repeat: no-repeat;
+background-position: bottom right,left;}
+
