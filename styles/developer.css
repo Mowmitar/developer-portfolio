@@ -19,6 +19,13 @@
     border: 0;
 }
 
+.header {
+    background: #fff8f3;
+    background-image: url(/images/header_bg.png),url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
 /* header and nav */
 nav {
     display: flex;
@@ -48,17 +55,33 @@ nav li {
     margin: 0 200px;
 }
 
-.banner-title{
-font-size: 85px;
-font-weight: 700;
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
 }
 
-.banner-sub-title{
+.banner-sub-title {
     font-size: 45px;
     font-weight: 600;
 }
 
-.banner-description{
+.banner-description {
     color: #757575;
     font-size: 18px;
+   margin-bottom: 15px;
+}
+main{max-width: 1140px;
+margin: 0 auto;}
+
+/* about section style */
+.about{
+
+}
+
+.section-title{
+
+}
+
+.section-description{
+
 }
