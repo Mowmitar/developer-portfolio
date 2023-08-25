@@ -116,3 +116,5 @@ font-size: 20px;
 font-weight: 700;
 color: #474747;
 }
+
+.skill-container{display: flex;}
